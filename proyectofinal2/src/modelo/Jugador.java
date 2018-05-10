@@ -17,6 +17,17 @@ public class Jugador implements Comparable<Jugador>{
 		hijoDerecho = null;
 		this.nombre = nombre;
 	}
+	  
+	 /**
+	  * Segundo método constructor de la clase.
+	  * @param nombre
+	  * @param score
+	  */
+	  public Jugador(String nombre, int score) {
+		  this.nombre = nombre;
+		  this.score = score;
+		  
+	  }
 	
 	
 	
